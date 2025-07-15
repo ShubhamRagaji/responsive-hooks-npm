@@ -1,11 +1,16 @@
 {
   "name": "react-screen-responsive-hooks",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple React hooks kit for handling window size, breakpoints, orientation, and media queries in responsive layouts.",
-  "main": "hooks/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "hooks"
+    "dist"
   ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "react",
     "hooks",
@@ -17,8 +22,17 @@
   ],
   "author": "Shubham Ragaji",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShubhamRagaji/responsive-hooks-npm"
+  },
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.8.3"
   }
 }
