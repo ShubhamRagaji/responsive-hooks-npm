@@ -1,0 +1,24 @@
+{
+  "name": "react-screen-responsive-hooks",
+  "version": "1.0.0",
+  "description": "A simple React hooks kit for handling window size, breakpoints, orientation, and media queries in responsive layouts.",
+  "main": "hooks/index.js",
+  "files": [
+    "hooks"
+  ],
+  "keywords": [
+    "react",
+    "hooks",
+    "custom-hooks",
+    "responsive",
+    "media",
+    "breakpoints",
+    "windowsize"
+  ],
+  "author": "Shubham Ragaji",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  }
+}
