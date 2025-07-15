@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShubhamRagaji/responsive-hooks-npm"
+    "url": "git+https://github.com/ShubhamRagaji/responsive-hooks-npm.git"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
